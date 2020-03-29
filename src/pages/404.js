@@ -1,12 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout';
-
-const index = () => {
+const Error = () => {
   return (
     <Layout>
-      <h1>This is the home page</h1>
+      <h1>this is the 404 page</h1>
     </Layout>
   );
 };
 
-export default index;
+export default Error;
