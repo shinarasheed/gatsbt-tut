@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from '../components/Layout';
-
+import Image from '../examples/Images';
 const images = () => {
   return (
     <Layout>
-      <div>this is the images page</div>
+      <Image />
     </Layout>
   );
 };
