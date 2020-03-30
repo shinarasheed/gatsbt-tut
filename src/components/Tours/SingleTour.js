@@ -13,7 +13,7 @@ const SingleTour = ({ tour }) => {
       <div className={styles.imgContainer}>
         <Image fluid={mainImage} className={styles.img} alt={name} />
         <Link className={styles.link} to={`/tours/${slug}`}>
-          detail
+          details
         </Link>
       </div>
       <div className={styles.foter}>
