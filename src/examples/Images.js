@@ -40,7 +40,7 @@ const Images = () => {
     <Wrapper>
       <article>
         <h3>basic image</h3>
-        <img src={img} className="basic" alt="normal image" />
+        <img src={img} className="basic" alt="normal" />
         <h2>content</h2>
       </article>
 
