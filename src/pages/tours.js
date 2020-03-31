@@ -6,7 +6,7 @@ import { graphql } from 'gatsby';
 const tours = ({ data }) => {
   return (
     <Layout>
-      hello from tours page
+      hello from tours PAGE
       <Tours tours={data.tours.edges} />
     </Layout>
   );
